@@ -11,7 +11,7 @@ export default function Navbar() {
             <div className='logo'></div>
             <div className='navbar-list'>
                 <ul>
-                    <NavLink style={active} to='/'>Home</NavLink>
+                    <NavLink style={active} to='/Space-tourism-React-'>Home</NavLink>
                     <NavLink style={active} to='/destination' >Destination</NavLink>
                     <NavLink style={active} to='/crew' >Crew</NavLink>
                     <NavLink style={active} to='/technology'>Technology</NavLink>
