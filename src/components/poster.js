@@ -13,9 +13,9 @@ export default function Poster() {
     return (
         <div className='poster' style={{ margin: '0% 5% 0% 5%' }}>
             <div className='poster-text'>
-                <div style={{ fontSize: '35px' }}>{data.h1}</div>
-                <div style={{ fontSize: '100px', margin: '20px 0px 20px 0px', color: 'white' }} >{data.h2}</div>
-                <div style={{ fontSize: '25px' }}>{data.h3}</div>
+                <div className='h1' style={{fontSize:"35px"}}>{data.h1}</div>
+                <div className='h2' style={{fontSize: '100px',margin: '20px 0px 20px 0px',color: 'white'}} >{data.h2}</div>
+                <div className='h3' style={{fontSize:"25px"}}>{data.h3}</div>
             </div>
             <div className='poster-btn'><Link className='btn' to='/destination'>{data.h4}</Link></div>
         </div>
