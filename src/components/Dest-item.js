@@ -9,11 +9,10 @@ export default function DestItem({ item }) {
     return (
         <div className='destitem' style={{ color: 'white' }}>
             <div className='dest_details'>
-                <div className='name align m' style={{fontSize:'40px'}}>{item.name}</div>
-                <div className='desc m gray' style={{fontSize:'30px'}}>{item.description}</div>
-                <div className='Distance m gray' style={{fontSize:'30px'}}>Distance: {item.distance}</div>
-                <div className='travel m gray' style={{fontSize:'30px'}}>Time: {item.travel}</div>
-                {/* <button id='dest_btn' className='m'>Book Now</button> */}
+                <div className='name align m f40' >{item.name}</div>
+                <div className='desc m gray f30' >{item.description}</div>
+                <div className='Distance m gray f30' >Distance: {item.distance}</div>
+                <div className='travel m gray f30' >Time: {item.travel}</div>
             </div>
             <div id='item_img' ><img src={require('../assets/destination/'+item.images.png)} /></div>
         </div>

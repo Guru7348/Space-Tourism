@@ -6,7 +6,7 @@ export default function Crew({crew,flex}){
         return(
             <div className='crewcard' style={{flexDirection:direction}}>
                 <div className='crew_details'>
-                    <div className='crew_name' style={{fontSize:'60px'}}>{crew.name}</div>
+                    <div className='crew_name f60'>{crew.name}</div>
                     <div className='crew_role gray'>{crew.role}</div>
                     <div className='crew_bio gray' >{crew.bio}</div>
                 </div>
